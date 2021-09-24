@@ -7,6 +7,6 @@ jobs:
       - name: CLonar y checkout de la rama actual
         uses: actions/checkout@v1
       - name:  Instalar dependecias
-        run: yarn instalar
+        run: yarn install
       - name: Ejecutando tests ronald
         run: yarn test
